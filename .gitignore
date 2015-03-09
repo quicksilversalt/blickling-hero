@@ -38,7 +38,7 @@ Thumbs.db
 
 # ignore compiled css #
 #######################
-*.css
+*.scss
 .sass-cache
 
 bower_components
