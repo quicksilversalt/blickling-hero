@@ -1,10 +1,13 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
+		project: {
+		    app: ['app']
+		},
 		sass: {
 			dist: {
 				files: {
-					'style/style.css' : 'sass/style.scss'
+					'app/css/style.css' : 'sass/style.scss'
 				}
 			}
 		},

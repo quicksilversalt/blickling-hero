@@ -1,0 +1,18 @@
+@import '../app/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap';
+
+$font-main: Helvetica, sans-serif;
+
+//colors
+$bl-color-header: #cecabd;
+$bl-color-nav-main: #873629;
+$bl-color-bg-light: #e2decf;
+$bl-color-bg-dark: #7f817e;
+$bl-color-text-dark: #4e5351;
+$bl-color-text-light: #e2decf;
+
+
+body{
+	background: $bl-color-bg-light;
+	margin: 0;
+	border: 0;
+}
