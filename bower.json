@@ -25,7 +25,8 @@
     "angular-nanoscroller": "~0.2.1",
     "angular-sockjs": ">=0.0.1",
     "jquery": "~2.1.1",
-    "bootstrap-sass-official": "3.3.3"
+    "bootstrap-sass-official": "3.3.3",
+    "angular-bootstrap": "~0.12.1"
   },
   "license": "MIT",
   "ignore": [

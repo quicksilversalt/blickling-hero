@@ -5627,4 +5627,27 @@ button.close {
 body {
   background: #e2decf;
   margin: 0;
-  border: 0; }
+  border: 0;
+  position: relative; }
+
+#bl-header {
+  background-color: #cecabd;
+  top: 0;
+  position: fixed;
+  max-height: 155px;
+  height: 155px;
+  width: 100%; }
+
+#bl-primary-nav {
+  background-color: #873629;
+  height: 52px;
+  position: fixed;
+  top: 77px;
+  width: 100%; }
+
+#bl-body {
+  background-color: #7f817e;
+  width: 100%;
+  top: 400px;
+  height: 500px;
+  position: relative; }

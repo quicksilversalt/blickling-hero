@@ -11,8 +11,37 @@ $bl-color-text-dark: #4e5351;
 $bl-color-text-light: #e2decf;
 
 
-body{
+body {
 	background: $bl-color-bg-light;
 	margin: 0;
 	border: 0;
+	position: relative;
+}
+
+#bl-header {
+	//base rules for the header section
+	background-color: $bl-color-header;
+	top: 0;
+	position: fixed;
+	max-height: 155px;
+	height: 155px;
+	width: 100%;
+}
+
+#bl-primary-nav {
+	//base rules for the primary nav
+	background-color: $bl-color-nav-main;
+	height: 52px;
+	position: fixed;
+	top: 77px;
+	width: 100%;
+}
+
+#bl-body {
+	//base rules for the main page body
+	background-color: $bl-color-bg-dark;
+	width: 100%;
+	top: 400px;
+	height: 500px;
+	position: relative;
 }
