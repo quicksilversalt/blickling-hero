@@ -5639,11 +5639,16 @@ body {
   width: 100%; }
 
 #bl-primary-nav {
-  background-color: #873629;
-  height: 52px;
+  color: #e2decf;
   position: fixed;
-  top: 77px;
+  top: 0;
   width: 100%; }
+  #bl-primary-nav .nav-bg {
+    background-color: #873629;
+    height: 52px;
+    position: absolute;
+    top: 77px;
+    width: 100%; }
 
 #bl-body {
   background-color: #7f817e;
@@ -5651,3 +5656,29 @@ body {
   top: 400px;
   height: 500px;
   position: relative; }
+
+.font-main, .font-menu-lg, .font-menu-head, .font-menu-sm {
+  font: Helvetica, sans-serif;
+  font-style: normal;
+  font-variant: normal; }
+
+.font-menu-lg, .font-menu-head {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 36px; }
+
+.font-menu-head {
+  font-size: 48px;
+  color: #4e5351; }
+
+.bl-menu-primary {
+  float: right;
+  margin-top: 41px;
+  margin-right: 15%; }
+  .bl-menu-primary .bl-menu-header {
+    position: relative; }
+  .bl-menu-primary .bl-menu-btn {
+    cursor: pointer;
+    padding: 0 6px;
+    top: 52px;
+    position: relative; }

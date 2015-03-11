@@ -30,11 +30,18 @@ body {
 
 #bl-primary-nav {
 	//base rules for the primary nav
-	background-color: $bl-color-nav-main;
-	height: 52px;
+	color: $bl-color-bg-light;
 	position: fixed;
-	top: 77px;
+	top: 0;
 	width: 100%;
+
+	.nav-bg {
+		background-color: $bl-color-nav-main;
+		height: 52px;
+		position: absolute;
+		top: 77px;
+		width: 100%;
+	}
 }
 
 #bl-body {
@@ -45,3 +52,40 @@ body {
 	height: 500px;
 	position: relative;
 }
+
+.font-main {
+	font: $font-main;
+	font-style: normal;
+	font-variant: normal;
+}
+.font-menu-lg {
+	@extend .font-main;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 36px;
+}
+.font-menu-head{
+	@extend .font-menu-lg;
+	font-size: 48px;
+	color: $bl-color-text-dark;
+}
+.font-menu-sm {
+	@extend .font-main;
+}
+
+.bl-menu-primary{
+	float: right;
+	margin-top: 41px;
+	margin-right: 15%;
+
+	.bl-menu-header {
+		position: relative;
+	}
+	.bl-menu-btn {
+		cursor: pointer;
+		padding: 0 6px;
+		top: 52px;
+		position: relative;
+	}
+}
+
